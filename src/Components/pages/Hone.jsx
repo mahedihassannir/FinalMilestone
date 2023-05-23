@@ -21,11 +21,18 @@ import Manu from "./compos/Manu";
 import SwiperSliderMahedi from "./compos/SwiperSliderMahedi";
 import Manus from "./compos/Manus";
 import ManuCard from "./compos/ManuCard";
+import { Helmet } from "react-helmet";
 
 
 const Hone = () => {
     return (
         <div >
+            {/* here is the helmate  */}
+            <Helmet>
+                <title>Bistro Boss | Home</title>
+            </Helmet>
+            {/* here is the helmate ends */}
+
             <Carousel>
                 <div>
                     <img src={bannerImage1} />
@@ -130,7 +137,7 @@ const Hone = () => {
             </section>
             {/* here is the 3rd outro ends */}
 
-            
+
             {/* here is teh items and card sections starts */}
             <section>
 

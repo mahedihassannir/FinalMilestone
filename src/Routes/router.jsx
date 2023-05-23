@@ -4,6 +4,7 @@ import {
 } from "react-router-dom";
 import Main from "../Layout/Main";
 import Hone from "../Components/pages/Hone";
+import OurManur from "../Components/pages/OurManur";
 
 
 const router = createBrowserRouter(
@@ -15,7 +16,13 @@ const router = createBrowserRouter(
                 {
                     path: "/",
                     element: <Hone></Hone>
-                }
+                },
+                
+                {
+                    path: "Manue",
+                    element: <OurManur></OurManur>
+                },
+
             ]
         }
     ]

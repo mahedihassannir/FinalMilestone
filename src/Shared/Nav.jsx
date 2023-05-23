@@ -13,15 +13,18 @@ const Nav = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <Link to="/">Home</Link>
-                          
+
+
 
                         </ul>
                     </div>
                     <a className="btn btn-ghost normal-case text-xl">Botes Food</a>
                 </div>
                 <div className=" hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu gap-4 menu-horizontal px-1">
                         <Link to="/">Home</Link>
+                        <Link to="/Manue"> OurManue</Link>
+
                     </ul>
                 </div>
                 <div className="navbar-end">
