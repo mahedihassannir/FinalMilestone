@@ -18,6 +18,7 @@ import About from "./compos/About";
 import Secoundutro from "../outros/Secoundutro";
 import ThreeOutro from "../outros/ThreeOutro";
 import Manu from "./compos/Manu";
+import SwiperSliderMahedi from "./compos/SwiperSliderMahedi";
 
 
 const Hone = () => {
@@ -64,8 +65,8 @@ const Hone = () => {
 
 
             {/* here is teh card carudol starts */}
-            <section className="w-full h-[450px] my-4">
-
+            <section className="w-4/6 mx-auto my-5 h-[450px] my-4">
+                <SwiperSliderMahedi></SwiperSliderMahedi>
             </section>
             {/* here is teh card carudol ends */}
 
