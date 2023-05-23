@@ -1,7 +1,7 @@
 
 const SingleRecumended = ({ data }) => {
 
-    let { name, recipe, image, category, price } = data
+    let { recipe, image, category, } = data
 
 
 
