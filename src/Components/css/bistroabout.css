@@ -1,0 +1,11 @@
+#AboutBg {
+  background-image: url(../../assets/home/chef-service.jpg);
+  background-size: cover;
+  object-fit: cover;
+}
+
+#manue {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),   url(../../assets/home/featured.jpg);
+  background-size: cover;
+  object-fit: cover;
+}
