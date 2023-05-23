@@ -19,6 +19,8 @@ import Secoundutro from "../outros/Secoundutro";
 import ThreeOutro from "../outros/ThreeOutro";
 import Manu from "./compos/Manu";
 import SwiperSliderMahedi from "./compos/SwiperSliderMahedi";
+import Manus from "./compos/Manus";
+import ManuCard from "./compos/ManuCard";
 
 
 const Hone = () => {
@@ -95,7 +97,10 @@ const Hone = () => {
             {/* here is the outro 2 ends */}
 
             {/* here is the manue section starts */}
-            <section>
+            <section className="w-full py-20">
+
+                <Manus></Manus>
+
 
             </section>
             {/* here is the manue section starts ends */}
@@ -120,28 +125,32 @@ const Hone = () => {
             <section className="text-center mt-10">
 
                 <ThreeOutro></ThreeOutro>
-                <h4 className="border-y-4 font-bold mx-auto w-3/12 my-4 py-3">ORDER ONLINE</h4>
+                <h4 className="border-y-4 font-bold mx-auto w-3/12 my-4 py-3">CHEF RECOMMENDS</h4>
 
             </section>
             {/* here is the 3rd outro ends */}
 
-
-
+            
             {/* here is teh items and card sections starts */}
             <section>
+
+                <ManuCard></ManuCard>
+
 
             </section>
             {/* here is teh items and card sections ends  */}
 
 
             {/* here is teh manue banner */}
-            <section id="manue" className="w-fulll h-[848px]">
+            <section id="manue" className=" w-fulll h-[848px]">
 
                 <Manu></Manu>
 
                 {/* two side ends */}
             </section>
             {/* here is teh manue banner ends */}
+
+
 
 
         </div>
